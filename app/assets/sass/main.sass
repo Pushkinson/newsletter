@@ -1,0 +1,184 @@
+*
+    box-sizing: border-box
+
+body
+    background-image: url(../img/back.jpg)
+    background-position: top
+    background-attachment: fixed
+    font: 1.1em 'PT Sans', Tahoma, Arial
+    color: #dcecec
+    line-height: 30px
+    position: relative
+
+.animated
+    transition: 2s
+    animation: delete 2.2s ease 1
+    animation-fill-mode: forwards
+    right: 0px
+
+.viewed
+    background-color: #3e666aaa !important
+
+.hidden
+    display: none !important
+
+.showed
+    display: flex !important
+
+.main
+    width: 100px
+    height: 100px
+    background-color: #212438
+    border-radius: 50%
+    animation: mainBuble 1s 1s ease-out 1
+    position: fixed
+    right: 40px
+    bottom: -200px
+    animation-fill-mode: forwards
+    transition: 2s
+    box-shadow: 0 0 10px rgba(0,0,0,.7)
+
+    &__number-news
+        // position: absolute
+        transition: 0.5s
+        // line-height: 70px
+        display: flex
+        justify-content: space-around
+        align-items: center
+        width: 100%
+        height: 100%
+        font-size: 1.5em
+        font-weight: bold
+        color: #78c5c5
+        text-shadow: 0 1px 3px #23465166
+        cursor: pointer
+
+        &:hover
+            transform: scale(1.3)
+
+    &__container
+        display: none
+        transition: 2s
+        flex-direction: column
+        margin: 0 auto
+        position: absolute
+        right: 130%
+        bottom: 10%
+
+.news
+    transition: 1s
+    position: relative
+    max-height: 220px
+    overflow: hidden
+
+    &__container
+        margin: 0 auto
+        min-width: 800px
+
+    &__inner
+        display: flex
+        justify-content: space-between
+        align-items: stretch
+        padding: 10px
+        margin: 10px
+        background-color: #212438
+        border-radius: 10px
+        text-shadow: 0 1px 3px rgba(0,0,0,.3)
+        box-shadow: 0 0 8px rgba(0,0,0,.6)
+
+    &__img
+        width: 240px
+        height: 160px
+        background-size: cover
+        margin-right: 10px
+
+    &__content
+        display: flex
+        flex-direction: column
+        margin-right: 5px
+
+    &__header
+        font-size: 1.4em
+        color: #8adfdf
+
+    &__author
+        font-size: 1.2em
+
+    &__details
+        transition: 0.5s
+
+        &:hover
+                transform: scale(1.05)
+
+        a
+            color: #dcecec
+            text-decoration: none
+            cursor: pointer
+
+            &:hover
+                color: #8adfdf
+                transform: scale(1.2)
+
+    &__status
+        width: 300px
+        transition: 0.5s
+        font-size: 1.3em
+        text-align: center
+        background-color: #2d5b5b
+        border: 2px solid white
+        border-radius: 5px
+        cursor: pointer
+        margin-top: 10px
+
+        &:hover
+            transform: scale(1.1)
+
+    &__close
+        width: 30px
+        height: 30px
+        cursor: pointer
+        transition: 0.5s
+        border: 2px solid #2d5b5b
+        border-radius: 5px
+        padding: 3px 15px
+        line-height: 20px
+        display: flex
+        justify-content: space-around
+        align-content: center
+
+        &:hover
+            transform: scale(1.2)
+            color: #8adfdf
+            background-color: #2d5b5b
+
+        &::after
+            content: "X"
+
+@keyframes mainBuble
+    0%
+        bottom: -200px
+
+    60%
+        bottom: 40px
+
+    70%
+        bottom: 0px
+
+    80%
+        bottom: 30px
+
+    90%
+        bottom: 10px
+
+    100%
+        bottom: 20px
+
+@keyframes delete
+    0%
+        right: 0px
+    30%
+        right: 50px
+    100%
+        right: -2100px
+
+@import "media1000", "media820"

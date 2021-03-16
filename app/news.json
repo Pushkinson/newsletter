@@ -1,0 +1,110 @@
+[
+    {
+        "header": "Green Beach",
+        "author": "Ted Mosby",
+        "date": "19.12.2020 in 17:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "1",
+        "id": "0"
+    },
+    {
+        "header": "Wait For It",
+        "author": "Barney Stinson",
+        "date": "19.12.2020 in 19:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "2",
+        "id": "1"
+    },
+    {
+        "header": "Here We Play",
+        "author": "Lily Aldrin",
+        "date": "20.12.2020 in 17:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "3",
+        "id": "2"
+    },
+    {
+        "header": "My Favorite Drink",
+        "author": "Robin Sparkles",
+        "date": "20.12.2020 in 19:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "4",
+        "id": "3"
+    },
+    {
+        "header": "Green Beach",
+        "author": "Ted Mosby",
+        "date": "19.12.2020 in 17:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "1",
+        "id": "4"
+    },
+    {
+        "header": "Wait For It",
+        "author": "Barney Stinson",
+        "date": "19.12.2020 in 19:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "2",
+        "id": "5"
+    },
+    {
+        "header": "Here We Play",
+        "author": "Lily Aldrin",
+        "date": "20.12.2020 in 17:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "3",
+        "id": "6"
+    },
+    {
+        "header": "My Favorite Drink",
+        "author": "Robin Sparkles",
+        "date": "20.12.2020 in 19:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "4",
+        "id": "7"
+    },
+    {
+        "header": "Green Beach",
+        "author": "Ted Mosby",
+        "date": "19.12.2020 in 17:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "1",
+        "id": "8"
+    },
+    {
+        "header": "Wait For It",
+        "author": "Barney Stinson",
+        "date": "19.12.2020 in 19:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "2",
+        "id": "9"
+    },
+    {
+        "header": "Here We Play",
+        "author": "Lily Aldrin",
+        "date": "20.12.2020 in 17:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "3",
+        "id": "10"
+    },
+    {
+        "header": "My Favorite Drink",
+        "author": "Robin Sparkles",
+        "date": "20.12.2020 in 19:00",
+        "details": "A few unnecessary details for those who still won't read",
+        "status": "Viewed",
+        "img": "4",
+        "id": "11"
+    }
+]
